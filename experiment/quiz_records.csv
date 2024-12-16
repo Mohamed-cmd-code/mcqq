@@ -1,0 +1,6 @@
+question_id,mcq,correct,option_a,option_b,option_c,option_d
+1,When was the term 'machine learning' coined?,b,1950s,1959,1960s,1970s
+2,Who is credited with introducing the earliest machine learning model?,a,Arthur Samuel,Donald Hebb,Raytheon Company,Walter Pitts and Warren McCulloch
+3,What is the primary goal of modern-day machine learning?,c,Classifying data based on models,Predicting future outcomes,Both A and B,None of the above
+4,Who provided a formal definition of machine learning algorithms?,b,Arthur Samuel,Tom M. Mitchell,Donald Hebb,Walter Pitts and Warren McCulloch
+5,What is the ultimate goal of machine learning according to Turing?,b,For machines to exhibit human-like consciousness,For machines to perform tasks that require human intelligence,For machines to understand human language,For machines to replicate biological functions
