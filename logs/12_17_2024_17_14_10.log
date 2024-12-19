@@ -1,0 +1,7 @@
+[2024-12-17 17:14:34,609] 85 root - ERROR - Error occurred: Traceback (most recent call last):
+  File "C:\Users\ACER\mcqq\StreamlitAPP.py", line 60, in <module>
+    table_data = get_table_data(quiz)
+  File "C:\Users\ACER\mcqq\src\mcqgenerator\utils.py", line 39, in get_table_data
+    if isinstance(quiz_dict,dict):
+UnboundLocalError: local variable 'quiz_dict' referenced before assignment
+

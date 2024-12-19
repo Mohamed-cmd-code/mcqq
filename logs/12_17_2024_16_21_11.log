@@ -1,0 +1,52 @@
+[2024-12-17 16:24:03,548] 85 root - ERROR - Error occurred: Traceback (most recent call last):
+  File "C:\Users\ACER\mcqq\src\mcqgenerator\utils.py", line 10, in read_file
+    pdf_reader=PyPDF2.PdfFileReader(file)
+  File "C:\Users\ACER\mcqq\env\lib\site-packages\PyPDF2\_reader.py", line 1974, in __init__
+    deprecation_with_replacement("PdfFileReader", "PdfReader", "3.0.0")
+  File "C:\Users\ACER\mcqq\env\lib\site-packages\PyPDF2\_utils.py", line 369, in deprecation_with_replacement
+    deprecation(DEPR_MSG_HAPPENED.format(old_name, removed_in, new_name))
+  File "C:\Users\ACER\mcqq\env\lib\site-packages\PyPDF2\_utils.py", line 351, in deprecation
+    raise DeprecationError(msg)
+PyPDF2.errors.DeprecationError: PdfFileReader is deprecated and was removed in PyPDF2 3.0.0. Use PdfReader instead.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ACER\mcqq\StreamlitAPP.py", line 35, in <module>
+    text = read_file(uploaded_file)
+  File "C:\Users\ACER\mcqq\src\mcqgenerator\utils.py", line 17, in read_file
+    raise Exception("error reading the PDF file")
+Exception: error reading the PDF file
+
+[2024-12-17 16:26:04,528] 85 root - ERROR - Error occurred: Traceback (most recent call last):
+  File "C:\Users\ACER\mcqq\src\mcqgenerator\utils.py", line 10, in read_file
+    pdf_reader=PyPDF2.PdfFileReader(file)
+  File "C:\Users\ACER\mcqq\env\lib\site-packages\PyPDF2\_reader.py", line 1974, in __init__
+    deprecation_with_replacement("PdfFileReader", "PdfReader", "3.0.0")
+  File "C:\Users\ACER\mcqq\env\lib\site-packages\PyPDF2\_utils.py", line 369, in deprecation_with_replacement
+    deprecation(DEPR_MSG_HAPPENED.format(old_name, removed_in, new_name))
+  File "C:\Users\ACER\mcqq\env\lib\site-packages\PyPDF2\_utils.py", line 351, in deprecation
+    raise DeprecationError(msg)
+PyPDF2.errors.DeprecationError: PdfFileReader is deprecated and was removed in PyPDF2 3.0.0. Use PdfReader instead.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ACER\mcqq\StreamlitAPP.py", line 35, in <module>
+    text = read_file(uploaded_file)
+  File "C:\Users\ACER\mcqq\src\mcqgenerator\utils.py", line 17, in read_file
+    raise Exception("error reading the PDF file")
+Exception: error reading the PDF file
+
+[2024-12-17 16:27:10,385] 293 langchain_core.callbacks.manager - WARNING - Error in StdOutCallbackHandler.on_chain_start callback: AttributeError("'NoneType' object has no attribute 'get'")
+[2024-12-17 16:27:10,387] 293 langchain_core.callbacks.manager - WARNING - Error in StdOutCallbackHandler.on_chain_start callback: AttributeError("'NoneType' object has no attribute 'get'")
+[2024-12-17 16:27:12,225] 1025 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2024-12-17 16:27:12,270] 293 langchain_core.callbacks.manager - WARNING - Error in StdOutCallbackHandler.on_chain_start callback: AttributeError("'NoneType' object has no attribute 'get'")
+[2024-12-17 16:27:14,409] 1025 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2024-12-17 16:27:14,489] 85 root - ERROR - Error occurred: Traceback (most recent call last):
+  File "C:\Users\ACER\mcqq\StreamlitAPP.py", line 63, in <module>
+    df = pd.DataFrame(table_data)
+  File "C:\Users\ACER\mcqq\env\lib\site-packages\pandas\core\frame.py", line 817, in __init__
+    raise ValueError("DataFrame constructor not properly called!")
+ValueError: DataFrame constructor not properly called!
+

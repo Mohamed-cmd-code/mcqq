@@ -1,0 +1,7 @@
+[2024-12-17 17:03:57,568] 85 root - ERROR - Error occurred: Traceback (most recent call last):
+  File "C:\Users\ACER\mcqq\StreamlitAPP.py", line 63, in <module>
+    df = pd.DataFrame(table_data)
+  File "C:\Users\ACER\mcqq\env\lib\site-packages\pandas\core\frame.py", line 817, in __init__
+    raise ValueError("DataFrame constructor not properly called!")
+ValueError: DataFrame constructor not properly called!
+
